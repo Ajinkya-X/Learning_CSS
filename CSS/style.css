@@ -5,4 +5,108 @@ h3{
 p{
     color: black;
     background-color: lightskyblue;
+    
+}
+
+/* Class Selectors */
+
+.heading1
+{
+    color: red;
+    background-color:lightpink;
+    text-align: center;
+}
+
+.heading2
+{
+    color: lightcoral;
+    background-color: aqua;
+    text-align: center;
+
+}
+.para
+{
+    color: aliceblue;
+    background-color: black;
+}
+
+/* ID Selector */
+
+#head1
+{
+    color: deepskyblue;
+    background-color: darkred;
+    text-align: center;
+}
+#head2
+{
+    color: lawngreen;
+    background-color: black;
+    text-align: center;
+}
+.head2 
+{
+
+    color: aliceblue;
+    background-color: black;
+}
+
+.head_index
+{
+    color: chocolate;
+    background-color: aquamarine;
+    text-align: center;
+}
+.head_size
+{
+    font-size: 45px;
+    
+}
+
+/* Text Transform */
+.t_transform_upper
+{
+    text-transform: uppercase;
+    color: aqua;
+}
+
+.t_transform_lower
+{
+    text-transform: lowercase;
+    color: chartreuse;
+}
+
+.t_transform_capitalize
+{
+    text-transform: capitalize;
+    color: coral;
+}
+.t_center
+{
+    text-align: center;
+    color:darkturquoise;
+}
+.t_right
+{
+    text-align: right;
+    color: crimson;
+}
+
+.t_decor_underline
+{
+    text-decoration: underline;
+}
+.t_decor_overline
+{
+    text-decoration: overline;
+}
+.t_decor_through
+{
+    text-decoration: line-through;
+}
+.t_decor_UOT
+{
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;
 }
