@@ -1,0 +1,48 @@
+
+/* solid,dashed,dotted,double,inset,outset,grove */
+
+.img_border
+{
+    border: 18px solid red;
+}
+.img_border2
+{
+    border: 18px dashed lightgreen;
+}
+.img_border3
+{
+    border: 18px dotted orange;
+}
+.img_border4
+{
+    border: 18px double lightskyblue;
+}
+
+/* Image Border radius */
+
+.img_radius1
+{
+    border: 20px solid violet;
+    border-radius: 50px;
+}
+.img_radius2
+{
+    border: 20px solid purple;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 150px;
+}
+.img_radius3
+{
+    border-radius: 70px 200px 70px 200px ;
+}
+
+.img_radius4
+{
+    border: 80px groove;
+    border-top-color:red;
+    border-bottom-color: red;
+    border-right-color: chartreuse;
+    border-left-color: chartreuse;
+}

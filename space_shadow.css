@@ -1,0 +1,58 @@
+.t_letter_spacing
+{
+    letter-spacing: 20px;
+}
+.t_word_spacing
+{
+    word-spacing: 25px;
+}
+
+.para_line_height
+{
+    line-height: 25px;
+}
+
+.t_shadow
+{
+    color:blue;
+    text-shadow:2px 2px 2px red;
+}
+.t_shadow2
+{
+    color: greenyellow;
+    text-shadow:2px 3px 2px red ;
+
+}
+
+.t_shadow3
+{
+    color: coral;
+    text-shadow: 0px 3px 2px grey;
+}
+
+/* Image Shadow */
+
+.img_b_shadow
+{
+    box-shadow: 20px 25px 7px gold;
+    width: 450px;
+    height: 600px;
+}
+.img_b_shadow2
+{
+    box-shadow: 20px 25px 9px lightgreen;
+    width: 500px;
+    height: 350px;
+}
+
+.img_d_shadow
+{
+    filter: drop-shadow(12px 15px 5px red);
+}
+
+.img_d_shadow2
+{
+    filter: drop-shadow(13px 16px 4px blue);
+    width: 600px;
+    height: 550px;
+}
