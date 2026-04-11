@@ -1,0 +1,16 @@
+ body
+        {
+            background-color: cyan;
+            background-image: url("/Images/Island.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            
+        }
+        .bg{
+            color: lightgreen;
+            padding: 40px;
+            margin: 50px;
+            font-size: 90px;
+
+        }
