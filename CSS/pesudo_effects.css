@@ -1,0 +1,61 @@
+h1:hover {
+    color: red;
+    background-color: lightgreen;
+    font-size: 80px;
+    text-shadow: 3px 3px 5px lightpink
+}
+.heading1:hover {
+    color: violet;
+    background-color: lightgreen;
+    font-size: 80px;
+    text-shadow: 3px 3px 5px lightgrey;
+    background-image: url("/Images/crow.png")
+}
+.heading2:hover {
+    color: violet;
+    font-size: 80px;
+    font-family: cursive;
+    cursor: pointer;
+
+}
+input:focus {
+    background-color: lightblue;
+    color: red;
+    font-size: 30px;
+    font-family: cursive;
+    border: 15px solid lightblue;
+}
+.input2:focus {
+    background-color: lightblue;
+    color: red;
+    font-size: 30px;
+    font-family: cursive;
+    border: 15px solid lightblue;
+}
+.a1:visited {
+    color: red;
+    font-size: 60px;
+    font-family: cursive;
+}
+.a2:visited {
+    color: lightgreen;
+    font-size: 60px;
+    font-family: cursive;
+}
+/* Pesudo Element */
+p::first-letter {
+    color: red;
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p::first-line {
+    color: lightgreen;
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+::selection {
+    color: blue;
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightpink;
+}
