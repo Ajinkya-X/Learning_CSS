@@ -1,0 +1,19 @@
+.img_wrapper
+{
+  position: relative;
+  width: 250px;
+  max-width: 250px;
+  border: 5px solid red;
+  overflow: hidden;
+}
+.inner_img
+{
+  width: 100%;
+  height: 100%;
+  transition: 7s;
+  object-fit: cover;
+}
+.inner_img:hover
+{
+  transform: scale(2.5);
+}
