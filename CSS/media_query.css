@@ -1,0 +1,61 @@
+h1 {
+        color: red;
+        font-size: 80px;
+    }
+p
+    {
+        color: blue;
+        font-size: 60px;
+    }
+h3
+    {
+        color: green;
+        font-size: 50px;
+    }
+img
+    {
+        width: 270px;
+        height: 200px;
+    }
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 720px) {
+        body {
+            background-color: lightblue;
+            color: violet;
+        }
+    }
+    @media only screen and (min-width: 720px) {
+        body {
+            background-color: lightgreen;
+        }
+    }
+    @media only screen and (min-width: 1024px) {
+        body {
+            background-color: lightsalmon;
+        }
+    }
+    @media only screen and (min-width: 1280px) {
+        body {
+            background-color: lightsteelblue;
+        }
+    }
+    @media only screen and (min-width: 1440px) {
+        body {
+            background-color: lightpink;
+            img {
+                display: none;
+            }
+        }
+    }
+    @media only screen and (min-width: 1920px) {
+        body {
+            background-color: lightgrey;
+        }
+    }
+    @media only screen and (min-width: 2160px) {
+        body {
+            background-color: lightseagreen;
+        }
+    }
